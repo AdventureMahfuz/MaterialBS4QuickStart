@@ -1,0 +1,85 @@
+/*color variables start*/
+/*$background: linear-gradient(to right, #6666ff, #ff2dbc, #a8eb12);*/
+/*color variables end*/
+/*%text-gradient{
+  background: -webkit-linear-gradient(180deg, #F6182A, #0097D7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
+/*%section-title-two{
+  color: $gray;
+  background: none;
+  display: inline-block;
+  border-bottom: 2px solid $gray;
+  margin-bottom: 25px;
+}*/
+/*color variables start*/
+/*$background: linear-gradient(to right, #6666ff, #ff2dbc, #a8eb12);*/
+/*color variables end*/
+/*Default style start*/
+body {
+  font-family: "Merriweather", "SolaimanLipi", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #4a4a4a;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Default style end*/
+/*common style start*/
+.section-padding {
+  padding: 35px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #212121;
+}
+
+a {
+  color: #4a4a4a;
+}
+
+a:hover {
+  color: #993300;
+}
+
+/*common style end*/
+/*
+=============================================================================
+scroll bar style for chrome
+==============================================================================
+*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #993300;
+}
+
+/*
+=============================================================================
+scroll bar style for chrome
+==============================================================================
+*/
+/*@import "layouts/_header.scss";
+@import "layouts/_sidebar.scss";
+
+
+@import "layouts/_footer.scss";*/
+
+/*# sourceMappingURL=style.css.map */
